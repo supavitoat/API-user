@@ -113,7 +113,7 @@ exports.remove = async (req,res)=>{
         })
         res.status(200).json({
             status: "DELETE",
-            message: `Product with ID = ${id} has been deleted`,
+            message: `User with ID = ${id} has been deleted`,
           });
         console.log(id)
     }catch(err){
